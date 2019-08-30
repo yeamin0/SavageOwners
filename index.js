@@ -90,5 +90,5 @@ bot.on('message', msg=>{
         msg.reply('Congratulations, you are an official gay now. Find your partner.');
     }
 })
-bot.login(token)
+bot.login(process.emv.token);
 
